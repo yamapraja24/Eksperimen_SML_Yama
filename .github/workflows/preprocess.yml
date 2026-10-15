@@ -25,7 +25,7 @@ jobs:
         run: pip install pandas scikit-learn joblib
 
       - name: Jalankan preprocessing
-        run: python preprocessing/automate_Yama-Praja-Madana.py
+        run: python preprocessing/Automate.py
 
       - name: Commit dataset hasil preprocessing
         run: |
