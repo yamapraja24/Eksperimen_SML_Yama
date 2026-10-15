@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - "Energy_raw/**"
-      - "preprocessing/automate_Yama-Praja-Madana.py"
+      - "preprocessing/Automate.py"
   workflow_dispatch:
 
 permissions:
